@@ -1,4 +1,4 @@
-.vendor/
+vendor/
 tests/
 .DS_Store
 .idea
