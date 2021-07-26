@@ -3,7 +3,7 @@ namespace EmmKwami\GPDFC\GPDFCCONFIG;
 class GPDFCCONFIG
 {
       const ENV  = ['unix','windows'];
-      const FILELOCATIONTYPE = ['local','foreign'];
+      const FILELOCATIONTYPE = ['local','remote'];
       const OPTIONS = [
           'UNIX'=>'/usr/local/bin/gs -dNOPAUSE -dQUIET -dBATCH',
           'WINDOWS'=>'/usr/local/bin/gs -dNOPAUSE -dQUIET -dBATCH'
