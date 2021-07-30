@@ -55,7 +55,7 @@ class GPDFC extends CONFIG{
 
            return  'Caught exception: '.  $exception->getMessage(). "\n";
         }
-            $command = new Command('/usr/local/bin/gs -dNOPAUSE -dQUIET -dBATCH');
+            $command = new Command('/usr/bin/gs -dNOPAUSE -dQUIET -dBATCH');
             $command->addArg('-sDEVICE=','pdfwrite')
                 ->addArg('-dCompatibilityLevel=','1.4')
                 ->addArg('-dPDFSETTINGS=',"/ebook")
